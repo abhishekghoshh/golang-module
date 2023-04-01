@@ -8,4 +8,11 @@ go mod init github.com/abhishekghoshh/golang-module
 
 git add .
 git commit -m <commit-message>
+git push /  git push --set-upstream origin master
+
+git tag v0.0.1
+git push origin v0.0.1
+
+
+go get github.com/abhishekghoshh/golang-module
 ```
