@@ -15,4 +15,8 @@ git push origin v0.0.1
 
 
 go get github.com/abhishekghoshh/golang-module
+
+
+ git describe --tags
+ git describe --tags $(git rev-list --tags --max-count=1)
 ```
